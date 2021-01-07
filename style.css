@@ -1,0 +1,67 @@
+body {
+    font-family: 'Comic Neue', cursive;;
+    
+}
+
+.container {
+    height: 100vh;
+    background-color: rgba(169, 169, 169, 0.76);
+    position: relative;
+    display: flex;
+
+}
+
+.calculadoraIMC {
+    height: 400px;
+    width: 258px;
+    padding: 20px;
+    background-color: mediumpurple;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 5px solid #ffffff;
+    box-shadow: 15px 20px 10px rgba(0, 0, 0, 0.692);
+    
+}
+
+#nome {
+    margin-left: 1px;
+    
+}
+
+#altura {
+    margin-top: 20px;
+
+}
+
+#peso {
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#calcular {
+    background-color: #ffffff;
+    border: 2px #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-family: 'Comic Neue', cursive;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.692);
+    
+
+}
+
+#resultado {
+    height: 100px;
+    width: 208px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: black;
+    border: 5px solid #ffffff;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
